@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Chivo+Mono:wght@700&family=Poppins&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+main>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    
+ 
+   
+}
+main>.container{
+
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px 10px;
+   
+  
+   
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgb(233, 236, 239) 0px 20px 30px -10px;
+   
+}
+.nav>img{
+    height: 90%;
+}
+.nav>form>input{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-size: 20px;
+    
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+.nav>h3{
+    font-size: 1.5rem;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+main>.container>.card{
+    margin: auto;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(4, 231, 117, 0.25) 0px 54px 55px, rgba(24, 11, 207, 0.12) 0px -12px 30px, rgba(18, 165, 8, 0.12) 0px 4px 6px, rgba(10, 25, 222, 0.17) 0px 12px 13px, rgba(2, 191, 14, 0.09) 0px -3px 5px;
+
+    width: 95%;
+    height: 95%;
+    text-align: center;
+    background: transparent;
+    border-radius: 20px;
+    
+   
+}
+main>.container>.card>h2{
+    font-family: 'Poppins', sans-serif;
+
+    font-size:1.5rem;
+    color:white;
+
+}
+main>.container>.card>img{
+    height: 50px;
+}
+@media only screen and (max-width:900px) {
+    .nav >#name{
+        display:none;
+
+    }
+    #text{
+        display: none;
+    }
+    
+}
